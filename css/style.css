@@ -13,6 +13,7 @@ image property{
 
 :root{
     --default-font:Roboto, Helvetica, Trebuchet MS, Gill Sans;
+    --navigation-font-color: aliceblue;
 }
 
 body{
@@ -21,16 +22,18 @@ body{
 .container{
     max-width: 60em;
     margin: 0 auto;
+}
+
+.heading{
     background-image: url("/img/header-img-inkpen.jpg");
     background-repeat: round;
 }
-
 .styling{
     list-style: none;
 }
 
 .styling a{
-    color: aliceblue;
+    color: var(--navigation-font-color) ;
 }
 
 .logo{
