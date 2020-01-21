@@ -1,0 +1,31 @@
+/*
+
+blocks can center themselves.
+inline elements can be centered using text-align property on parent.
+
+
+image property{
+    width:auto; keeps the image size default if increasing the size of window
+    max-width:100%; 
+}
+
+*/
+
+:root{
+    --default-font:Roboto, Helvetica, Trebuchet MS, Gill Sans;
+}
+
+.container{
+    max-width: 20em;
+}
+
+.styling{
+    list-style: none;
+}
+
+.logo{
+    width: auto;
+    max-width: 7em;
+}
+
+
