@@ -10,14 +10,19 @@ image property{
 }
 
 */
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
 
 :root{
-    --default-font:Roboto, Helvetica, Trebuchet MS, Gill Sans;
+    --default-font:'Raleway', sans-serif;
     --navigation-font-color: aliceblue;
+    --primary-background-color:#fff;
+    --font-color:#52799C;
+    --spacing: 1em;
 }
 
 body{
     margin:0;
+    background-color: var(--primary-background-color);
 }
 .container{
     max-width: 60em;
@@ -40,5 +45,29 @@ body{
     width: auto;
     max-width: 7em;
 }
+.main-content{
+    padding: 1em;
+}
 
+p{
+    font-family: var(--default-font);
+    color: var(--font-color);
+}
 
+.container-images{
+    max-width: 100%;
+}
+.quote{
+    width: 50%;
+    margin: 0 auto;
+}
+
+blockquote {
+    margin: 0;
+}
+
+blockquote p {
+    padding: 15px;
+    background: #eee;
+    border-radius: 5px;
+}
