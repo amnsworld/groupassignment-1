@@ -15,12 +15,22 @@ image property{
     --default-font:Roboto, Helvetica, Trebuchet MS, Gill Sans;
 }
 
+body{
+    margin:0;
+}
 .container{
-    max-width: 20em;
+    max-width: 60em;
+    margin: 0 auto;
+    background-image: url("/img/header-img-inkpen.jpg");
+    background-repeat: round;
 }
 
 .styling{
     list-style: none;
+}
+
+.styling a{
+    color: aliceblue;
 }
 
 .logo{
