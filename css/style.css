@@ -89,10 +89,6 @@ blockquote p {
     margin: 1em auto;
 }
 
-.search-result-content{
-
-}
-
 .search-result-readmore{
     text-decoration: none;
     border: 1px solid black;
@@ -104,4 +100,25 @@ blockquote p {
 
 .footer-area{
     background-color: lightcoral;
+    margin-top: 1em;
+}
+
+.footer-styling{
+    display: inline;
+}
+
+
+.flex-box-conatiner{
+    display: flex;
+    width:75%;
+    margin: 0.5em auto;
+    flex-basis: auto;
+}
+
+.flex-box-image{
+    width:75%;
+    flex-wrap: wrap;
+}
+flex-box-general{
+    flex-grow:1;
 }
