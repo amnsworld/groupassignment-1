@@ -35,9 +35,14 @@ body{
 }
 .styling{
     list-style: none;
+    text-align: right;
 }
 
-.styling a{
+.heading-styling li{
+    display: inline;
+}
+
+.header-nav-menu{
     color: var(--navigation-font-color) ;
 }
 
@@ -71,10 +76,32 @@ blockquote p {
     background: #eee;
     border-radius: 5px;
 }
+
 .search-result-box{
-    width: 75%
+    width: 75%;
+    background-color: lightblue;
+    margin: 0 auto;
+    text-align: center;
+}
+.search-result-image{
+    width: 50%;
+    background-color: khaki;
+    margin: 1em auto;
+}
+
+.search-result-content{
 
 }
-.search-image{
-    width: 25%;
+
+.search-result-readmore{
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 0.15em;
+    background-color: gray;
+    color: white;
+    border-radius: 5px;
+}
+
+.footer-area{
+    background-color: lightcoral;
 }
