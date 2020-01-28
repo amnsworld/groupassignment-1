@@ -24,6 +24,16 @@ body{
     margin:0;
     background-color: var(--primary-background-color);
 }
+.main-body-flex{
+    width: 100%;
+}
+
+.main-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    padding:0.5em;
+}
 .container{
     max-width: 60em;
     margin: 0 auto;
@@ -32,6 +42,9 @@ body{
 .heading{
     background-image: url("/img/header-img-inkpen.jpg");
     background-repeat: round;
+    display: flex;
+    justify-content: space-between;
+
 }
 .styling{
     list-style: none;
