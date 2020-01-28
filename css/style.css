@@ -71,3 +71,10 @@ blockquote p {
     background: #eee;
     border-radius: 5px;
 }
+.search-result-box{
+    width: 75%
+
+}
+.search-image{
+    width: 25%;
+}
